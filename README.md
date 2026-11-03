@@ -5,12 +5,30 @@ A reproducible R-based spatial proteomics workflow using the `hyperLOPIT2015` da
 <!-- Optional banner: add an image to results/figures/ and link it here -->
  ![Banner](results/figures/cover_page.png) 
 
-## Research Team
+## Contributors and Affiliation
 
-**Horizon Science Communication LLC — Bioinformatics Team**
+This project is associated with **Horizon Science Communication LLC**.
 
-- **Shrouk Hany**
-- **Dr. Hesham Abdullah**
+### Contributors
+
+**Shrouk Hany**
+
+- Email: `shroukhany219@gmail.com`
+- GitHub: [shroukhm](https://github.com/shroukhm)
+- LinkedIn: [Shrouk Hany](https://www.linkedin.com/in/shrouk-hany/)
+
+**Dr. Hesham Abdullah**
+
+- Email: `ceo@horizon-sci-comm.us`
+- GitHub: [HABIOTECH](https://github.com/HABIOTECH)
+- LinkedIn: [Dr. Hesham Abdullah](https://www.linkedin.com/in/hesham-abdullah-40bab1190/)
+
+### Organization
+
+**Horizon Science Communication LLC** — [Website](https://www.horizon-sci-comm.us/)
+
+This repository documents the computational methods, selected analysis outputs and workflow developed for the spatial proteomics localization analysis.
+
 
 ## Project Background
 
@@ -329,26 +347,3 @@ The notebook saves figures and tables to the working directory. When knitting fr
 - [Attree et al., 2026. *Eimeria tenella* sporozoite hyperLOPIT study (*Int J Parasitol*)](https://pubmed.ncbi.nlm.nih.gov/42102995/) , on which the workflow is modelled.
 - Bioconductor: [pRoloc](https://bioconductor.org/packages/pRoloc/), [pRolocdata](https://bioconductor.org/packages/pRolocdata/)
 
-## Contributors and Affiliation
-
-This project is associated with **Horizon Science Communication LLC**.
-
-### Contributors
-
-**Shrouk Hany**
-
-- Email: `shroukhany219@gmail.com`
-- GitHub: [shroukhm](https://github.com/shroukhm)
-- LinkedIn: [Shrouk Hany](https://www.linkedin.com/in/shrouk-hany/)
-
-**Dr. Hesham Abdullah**
-
-- Email: `ceo@horizon-sci-comm.us`
-- GitHub: [HABIOTECH](https://github.com/HABIOTECH)
-- LinkedIn: [Dr. Hesham Abdullah](https://www.linkedin.com/in/hesham-abdullah-40bab1190/)
-
-### Organization
-
-**Horizon Science Communication LLC** — [Website](https://www.horizon-sci-comm.us/)
-
-This repository documents the computational methods, selected analysis outputs and workflow developed for the spatial proteomics localization analysis.
