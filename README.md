@@ -343,11 +343,6 @@ The notebook saves figures and tables to the working directory. When knitting fr
 
 ## References
 
-
-git add .gitattributes
-git commit -m "Configure Linguist attributes to ignore generated HTML"
-git push
-
 - Dataset publication: [PMID 26754106](https://pubmed.ncbi.nlm.nih.gov/26754106/)
 - [Attree et al., 2026. *Eimeria tenella* sporozoite hyperLOPIT study (*Int J Parasitol*)](https://pubmed.ncbi.nlm.nih.gov/42102995/) , on which the workflow is modelled.
 - Bioconductor: [pRoloc](https://bioconductor.org/packages/pRoloc/), [pRolocdata](https://bioconductor.org/packages/pRolocdata/)
