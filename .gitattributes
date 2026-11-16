@@ -1,9 +1,8 @@
-# Treat all HTML files as generated so they are excluded from language statistics
+# 1. Ignore the rendered HTML file in the analysis folder
+analysis/*.html linguist-generated=true
 *.html linguist-generated=true
 
-# Alternatively, mark rendered HTML as documentation:
-# *.html linguist-documentation=true
-
-# If you have an entire folder of rendered output (e.g., docs, site, output):
-docs/* linguist-documentation=true
-output/* linguist-generated=true
+# 2. Tell GitHub to count R Markdown (.Rmd) as R
+*.Rmd linguist-language=R
+analysis/*.Rmd linguist-language=R
+*.R linguist-language=R
