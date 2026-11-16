@@ -1,12 +1,9 @@
-# 1. Ignore and exclude EVERY HTML file in any folder
-**/*.html linguist-generated=true
-**/*.html linguist-documentation=true
-**/*.html linguist-detectable=false
-
-# 2. Force GitHub to detect and count R Markdown (.Rmd) as pure R code
+# Force GitHub to detect and count R Markdown as R
 **/*.Rmd linguist-language=R
 **/*.Rmd linguist-detectable=true
+*.Rmd linguist-language=R
+*.Rmd linguist-detectable=true
 
-# 3. Ensure standard R scripts are recognized as R
+# Standard R scripts
 **/*.R linguist-language=R
 **/*.R linguist-detectable=true
