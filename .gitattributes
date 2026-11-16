@@ -1,14 +1,12 @@
-# 1. Ignore and exclude HTML output completely
-*.html linguist-generated=true
-*.html linguist-documentation=true
-analysis/*.html linguist-generated=true
-analysis/*.html linguist-documentation=true
+# 1. Ignore and exclude EVERY HTML file in any folder
+**/*.html linguist-generated=true
+**/*.html linguist-documentation=true
+**/*.html linguist-detectable=false
 
-# 2. Force GitHub to detect and count R Markdown as R code
-*.Rmd linguist-language=R
-*.Rmd linguist-detectable=true
-analysis/*.Rmd linguist-language=R
-analysis/*.Rmd linguist-detectable=true
+# 2. Force GitHub to detect and count R Markdown (.Rmd) as pure R code
+**/*.Rmd linguist-language=R
+**/*.Rmd linguist-detectable=true
 
-*.R linguist-language=R
-*.R linguist-detectable=true
+# 3. Ensure standard R scripts are recognized as R
+**/*.R linguist-language=R
+**/*.R linguist-detectable=true
