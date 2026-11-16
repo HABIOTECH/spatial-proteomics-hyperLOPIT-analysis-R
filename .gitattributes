@@ -1,0 +1,9 @@
+# Treat all HTML files as generated so they are excluded from language statistics
+*.html linguist-generated=true
+
+# Alternatively, mark rendered HTML as documentation:
+# *.html linguist-documentation=true
+
+# If you have an entire folder of rendered output (e.g., docs, site, output):
+docs/* linguist-documentation=true
+output/* linguist-generated=true
